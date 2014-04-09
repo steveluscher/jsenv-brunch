@@ -11,7 +11,7 @@
   "main": "./lib/index",
   "scripts": {
     "prepublish": "coffee -o lib/ src/",
-    "postinstall": "node setup.js postinstall",
+    "postinstall": "make build",
     "test": "node setup.js test"
   },
   "engines": {
