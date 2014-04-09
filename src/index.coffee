@@ -1,5 +1,5 @@
 vm = require 'vm'
-coffee = require 'coffee-script'
+coffee = require '../node_modules/coffee-script/lib/coffee-script'
 sysPath = require 'path'
 
 module.exports = class JsenvCompiler
