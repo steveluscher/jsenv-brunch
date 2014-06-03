@@ -15,8 +15,10 @@
     "test": "node setup.js test"
   },
   "engines": {
-    "node": "~0.6.10 || 0.8 || 0.9"
+    "node": ">=0.6",
+    "npm" : ">=1.3.18"
   },
+  "engineStrict": true,
   "dependencies": {
     "coffee-script": "*"
   },
